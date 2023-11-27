@@ -13,7 +13,8 @@ body,
 }
 
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
 }
 
 header {
@@ -22,9 +23,9 @@ header {
 }
 
 .card {
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 10px;
-    border-width: 1px;
+    background-color: hsl(0, 5%, 81%);
+    border-radius: 20px;
+    border-width: 10px;
     box-shadow: rgba(0, 0, 0, .15) 0px 2px 8px 0px; 
     color: hsl(206, 17%, 28);
     font-size: 18px; 
@@ -91,3 +92,8 @@ header {
     color: #fff;
 }
 
+.start-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}

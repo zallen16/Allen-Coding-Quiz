@@ -49,5 +49,22 @@ var questions = [
 ];
 
 var answerOption = document.getElementById("answer-options");
-var startButton = document.getElementById("")
+var startButton = document.getElementById('start-btn');
+
+startButton.addEventListener('click', runQuiz)
+
+var currentQuestionIndex = 0;
+var score = 60;
+
+function runQuiz(){
+    console.log('Started')
+};
+
+function showQuestion(){
+
+}
+
+function selectAnswer() {
+
+}
 
