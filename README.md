@@ -4,7 +4,7 @@ This week's assignment consisted of no starter code and we were tasked with crea
 
 Assistance with assignment was given by TAs in program as well as tutors Bobbi Tarkany and Jose Lopez. 
 
-URL of deployed application: 
+URL of deployed application: https://zallen16.github.io/Allen-Coding-Quiz/
 
 Screenshot of site: 
 ![Screen Shot 2023-11-28 at 12 00 48 AM](https://github.com/zallen16/Allen-Coding-Quiz/assets/126983111/0437dc8e-411c-45c1-9123-b68b1febd3ee)
