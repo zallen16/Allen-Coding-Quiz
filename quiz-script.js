@@ -15,9 +15,9 @@ var questions = [
         question: "What does DOM stand for?",
         answers: [
             {text: "Document Object Model", correct: true},
-            {text: "Don't Order Marinara", correct: false},
-            {text: "Dad's Only Magic", correct: false},
-            {text: "Do Orangutans Mussitate?", correct: false},
+            {text: "Document Orientation Mode", correct: false},
+            {text: "Debugging Order Machine", correct: false},
+            {text: "Decimal Obtuse Manufacturing", correct: false},
         ]
     },
     {
@@ -30,21 +30,21 @@ var questions = [
         ]
     },
     {
-        question: "This is going to be question 4",
+        question: "Which line of code can trigger a response from a user's click of a button?",
         answers: [
-            {text: "Option 1", correct: true},
-            {text: "Option 2", correct: false},
-            {text: "Option 3", correct: false},
-            {text: "Option 4", correct: false},
+            {text: "addEventListener", correct: true},
+            {text: "clickHereNow", correct: false},
+            {text: "addListenableFeature", correct: false},
+            {text: "eventClick", correct: false},
         ]
     },
     {
-        question: "This is going to be question 5",
+        question: "What phrase is commonly used in elementary phases of learning a language?",
         answers: [
-            {text: "Option 1", correct: true},
-            {text: "Option 2", correct: false},
-            {text: "Option 3", correct: false},
-            {text: "Option 4", correct: false},
+            {text: "Hello world!", correct: true},
+            {text: "What's good", correct: false},
+            {text: "Greetings", correct: false},
+            {text: "What's the word?", correct: false},
         ]
     }
 ];
@@ -67,8 +67,6 @@ function runQuiz(){
     console.log('Started')
     welcomeDiv.classList.add('hidden')
     quizDiv.classList.remove('hidden')
-    // execute timer function here
-    // execute showQuestion function here
     startTimer()
     showQuestion()
 };
@@ -85,10 +83,14 @@ function showQuestion(){
 
 function selectAnswer() {
     // if answer is wrong, subtract time off clock
-    console.log("correct");
 
     // check value for true or false before moving on to next question
     
+    if (correct) {
+        console.log("correct")
+    } else {
+        console.log("incorrect")
+    }
     currentQuestionIndex++
     showQuestion()
 }
