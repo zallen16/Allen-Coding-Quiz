@@ -86,11 +86,6 @@ function selectAnswer() {
 
     // check value for true or false before moving on to next question
     
-    if (correct) {
-        console.log("correct")
-    } else {
-        console.log("incorrect")
-    }
     currentQuestionIndex++
     showQuestion()
 }
